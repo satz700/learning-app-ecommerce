@@ -12,6 +12,7 @@ Here's how to deploy it on CentOS systems:
 sudo yum install -y firewalld
 sudo service firewalld start
 sudo systemctl enable firewalld
+firewall-cmd --list-all
 ```
 
 ## Deploy and Configure Database
